@@ -1,0 +1,30 @@
+[debug] [2023-10-30T11:22:00.589Z] ----------------------------------------------------------------------
+[debug] [2023-10-30T11:22:00.598Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sathishvenkatachalam\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-10-30T11:22:00.600Z] CLI Version:   12.7.0
+[debug] [2023-10-30T11:22:00.602Z] Platform:      win32
+[debug] [2023-10-30T11:22:00.602Z] Node Version:  v18.16.0
+[debug] [2023-10-30T11:22:00.605Z] Time:          Mon Oct 30 2023 04:22:00 GMT-0700 (Pacific Daylight Time)
+[debug] [2023-10-30T11:22:00.605Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-30T11:22:00.648Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-10-30T11:22:00.872Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-30T11:22:00.874Z] > authorizing via signed-in user (sathishkumar66930@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\multivendor-app-main
+
+[debug] [2023-10-30T11:22:02.560Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-10-30T11:22:02.562Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-10-30T11:23:55.411Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\sathishvenkatachalam\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.

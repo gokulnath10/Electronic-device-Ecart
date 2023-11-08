@@ -1,0 +1,23 @@
+.main{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.root{
+    background-color: azure;
+  
+}
+.field{
+    width: 20%;
+    height: 24px;
+    margin: 2px;
+    border-radius: 5px;
+    text-transform: lowercase;
+}
+.button{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 2px;
+}
